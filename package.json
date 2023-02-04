@@ -20,8 +20,8 @@
         ]
     },
     "engines": {
-        "node": "18.x"
-    }
+        "node": "16.x"
+    },
     "scripts": {
         "acceptancetest": "ts-mocha packages/server/tests/acceptance/index.spec.ts --exit",
         "acceptancetest:api_batch1": "ts-mocha packages/server/tests/acceptance/index.spec.ts  -g '@api-batch-1' --exit",
